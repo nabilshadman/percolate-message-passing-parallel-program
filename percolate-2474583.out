@@ -1,0 +1,43 @@
+percolate: running on 64 process(es)
+percolate: L = 768, rho = 0.404000, seed = 7777, maxstep = 3840
+percolate: rho = 0.404000, actual density = 0.404158
+percolate: step 100 - changes = 120934
+percolate: step 100 - map average = 9654975.718
+percolate: step 200 - changes = 103524
+percolate: step 200 - map average = 25706421.825
+percolate: step 300 - changes = 84126
+percolate: step 300 - map average = 56995451.563
+percolate: step 400 - changes = 64390
+percolate: step 400 - map average = 94633236.469
+percolate: step 500 - changes = 51273
+percolate: step 500 - map average = 142452767.183
+percolate: step 600 - changes = 35518
+percolate: step 600 - map average = 197335187.630
+percolate: step 700 - changes = 24537
+percolate: step 700 - map average = 258070486.335
+percolate: step 800 - changes = 15825
+percolate: step 800 - map average = 317839126.703
+percolate: step 900 - changes = 10167
+percolate: step 900 - map average = 384604464.232
+percolate: step 1000 - changes = 5361
+percolate: step 1000 - map average = 448220711.725
+percolate: step 1100 - changes = 2329
+percolate: step 1100 - map average = 503540713.970
+percolate: step 1200 - changes = 1851
+percolate: step 1200 - map average = 544475389.850
+percolate: step 1300 - changes = 1801
+percolate: step 1300 - map average = 563136007.055
+percolate: step 1400 - changes = 980
+percolate: step 1400 - map average = 575433507.571
+percolate: step 1500 - changes = 551
+percolate: step 1500 - map average = 587104473.894
+percolate: step 1600 - changes = 197
+percolate: step 1600 - map average = 596671635.116
+percolate: step 1700 - changes = 14
+percolate: step 1700 - map average = 604039014.522
+percolate: step 1770 - changes = 0
+percolate: step 1770 - map average = 605067466.838
+percolate: algorithm completed
+percolate: total time to update grid = 0.126020 second(s), time per step = 0.000071 second(s)
+percolate: cluster DOES NOT percolate
+mapwrite: visualising the largest 2 clusters
