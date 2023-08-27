@@ -1,11 +1,11 @@
 # 1. Percolate Message Passing Parallel Program
 
-Percolate message passing parallel program using two-dimensional decomposition  
+Percolate **message passing** parallel program using two-dimensional decomposition  
 implemented in the C programming language.    
 
 
 # 2. Header and Source Files  
-In this section, we describe the header and source files of the percolate code.  
+In this section, we describe the **header** and **source** files of the percolate code.  
 
 **percolate.h**  
 This is the header file for the simulation. System size (i.e. L), and number of  
@@ -26,7 +26,7 @@ This source file contains functions for generating random numbers.
 
 
 # 3. Compilation  
-In this section, we discuss how to compile the percolate code on the Cirrus supercomputer.  
+In this section, we discuss how to **compile** the percolate code on the Cirrus supercomputer.  
 
 **3.1 The default configuration parameters for the percolate simulation are:**      
 System size: L = 768  
@@ -61,7 +61,7 @@ argument. See **Execution** section for more information on this.
 
 
 # 4. Execution  
-In this section, we discuss our current status of the code, and how to run the code on  
+In this section, we discuss our current **status** of the code, and how to **run** the code on  
 both the frontend (i.e login) and backend (i.e. compute) nodes of Cirrus.  
 
 **4.1 Note on current version of the code**  
