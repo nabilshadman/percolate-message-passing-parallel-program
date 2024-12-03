@@ -86,7 +86,7 @@ A sample .out and .err file from a sample run of the percolate code on 2 backend
 - NPROC = 64
 - rho = 0.4040
 
-We are currently working on debugging the subtle segmentation fault that occurs in the code. More information about this is included in the report.
+We are currently working on debugging the subtle segmentation fault that occurs in the code. More information about this is included in the [report](https://github.com/nabilshadman/percolate-message-passing-parallel-program/blob/master/report/two_dimensional_decomposition_percolate_mpi_program_report.pdf).
 
 **4.2 To run the code on the login node:**  
 Type in the command line:  
@@ -172,3 +172,6 @@ srun --unbuffered --cpu-bind=core ./percolate 5555 0.4039
 **4.4 Additional information**
 
 For more information on running codes on the Cirrus system, please visit this [link](https://docs.cirrus.ac.uk/).
+
+## 5. Report
+We provide a [report](https://github.com/nabilshadman/percolate-message-passing-parallel-program/blob/master/report/two_dimensional_decomposition_percolate_mpi_program_report.pdf) associated with this repository where we discuss the general algorithm, the parallel implementation of the algorithm, the hardware and software environments where we test the implementation for correctness and performance, the performance analysis of the implementation, and the conclusions of the study.
