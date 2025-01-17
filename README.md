@@ -1,14 +1,12 @@
 # 1. Percolate Message Passing Parallel Program
 
-Percolate **message passing** parallel program using two-dimensional decomposition implemented in the C programming language.
+This project implements a **parallelized percolation simulation** using a two-dimensional decomposition approach. It employs the C programming language and Message Passing Interface (MPI) to efficiently divide and process a large grid across multiple computational units. Key features include the use of non-blocking communications for optimized data exchanges, a flexible periodic boundary condition in the horizontal direction, and a modular design aimed at extensibility and readability. Performance and correctness are rigorously tested, ensuring scalability and reliability.  
 
-This project utilizes the following tech stack:
+This project utilizes the following **tech stack**:
 - **C Programming Language:** The core of the simulation and its functionality.
 - **Message Passing Interface (MPI):** For communication between processes in the parallel program.
 - **GNU Make:** For compiling the code.
 - **ImageMagick:** For visualizing the output maps.
-
-These tools and technologies work together to perform parallel computations and visualizations efficiently.
 
 ## 2. Header and Source Files
 
@@ -173,5 +171,5 @@ srun --unbuffered --cpu-bind=core ./percolate 5555 0.4039
 
 For more information on running codes on the Cirrus system, please visit this [link](https://docs.cirrus.ac.uk/).
 
-## 5. Report
-We provide a [report](https://github.com/nabilshadman/percolate-message-passing-parallel-program/blob/master/report/two_dimensional_decomposition_percolate_mpi_program_report.pdf) associated with this repository where we discuss the general algorithm, the parallel implementation of the algorithm, the hardware and software environments where we test the implementation for correctness and performance, the performance analysis of the implementation, and the conclusions of the study.
+## 5. Reporting
+We provide [reports](https://github.com/nabilshadman/percolate-message-passing-parallel-program/tree/master/report) associated with this repository where we discuss the general algorithm, the parallel implementation of the algorithm, the hardware and software environments where we test the implementation for correctness and performance, the performance analysis of the implementation, and the conclusions of the study.
