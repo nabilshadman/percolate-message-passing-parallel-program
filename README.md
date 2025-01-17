@@ -1,6 +1,6 @@
 # 1. Percolate Message Passing Parallel Program
 
-This project implements a **parallelized percolation simulation** using a two-dimensional decomposition approach. It employs the C programming language and Message Passing Interface (MPI) to efficiently divide and process a large grid across multiple computational units. Key features include the use of non-blocking communications for optimized data exchanges, a flexible periodic boundary condition in the horizontal direction, and a modular design aimed at extensibility and readability. Performance and correctness are rigorously tested, ensuring scalability and reliability.  
+This project implements a **parallelized [percolation](https://en.wikipedia.org/wiki/Percolation) simulation** using a two-dimensional decomposition approach. It employs the C programming language and Message Passing Interface (MPI) to efficiently divide and process a large grid across multiple computational units. Key features include the use of non-blocking communications for optimized data exchanges, a flexible periodic boundary condition in the horizontal direction, and a modular design aimed at extensibility and readability. Performance and correctness are rigorously tested, ensuring scalability and reliability.  
 
 This project utilizes the following **tech stack**:
 - **C Programming Language:** The core of the simulation and its functionality.
@@ -84,7 +84,7 @@ A sample .out and .err file from a sample run of the percolate code on 2 backend
 - NPROC = 64
 - rho = 0.4040
 
-We are currently working on debugging the subtle segmentation fault that occurs in the code. More information about this is included in the [report](https://github.com/nabilshadman/percolate-message-passing-parallel-program/blob/master/report/two_dimensional_decomposition_percolate_mpi_program_report.pdf).
+We are currently working on debugging the subtle segmentation fault that occurs in the code. More information about this is included in the [report](https://github.com/nabilshadman/percolate-message-passing-parallel-program/blob/master/report/02_two_dimensional_decomposition_percolate_mpi_program_report.pdf).
 
 **4.2 To run the code on the login node:**  
 Type in the command line:  
